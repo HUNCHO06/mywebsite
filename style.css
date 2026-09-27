@@ -438,3 +438,22 @@ footer p {
     transform: scale(1.08);
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.35);
 }
+
+/* Softer Contact Section */
+#contact {
+    background: #151c2b;
+}
+
+#contact .contact-box {
+    background: #1b2435;
+    border: 1px solid #334155;
+    box-shadow: none;
+}
+
+#contact .contact-box a {
+    color: #cbd5e1;
+}
+
+#contact .contact-box a:hover {
+    color: #ffffff;
+}
