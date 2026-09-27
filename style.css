@@ -457,3 +457,11 @@ footer p {
 #contact .contact-box a:hover {
     color: #ffffff;
 }
+
+#contact a {
+    color: #cbd5e1 !important;
+}
+
+#contact a:hover {
+    color: white !important;
+}
