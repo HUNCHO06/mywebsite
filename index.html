@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Victor | Personal Website</title>
+
+    <link rel="stylesheet" href="style.css">    
+</head>
+
+<body>
+
+<nav>
+    <h2>VICTOR</h2>
+
+    <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<section id="home">
+    <div class="profile-image">
+        <img src="images/victor.jpg" alt="Victor">
+    </div>
+
+    <h1>Hi, I'm Victor</h1>
+
+    <p>
+        <p id="typing-text"></p>
+    </p>
+
+    <p>
+        Welcome to my personal website.
+    </p>
+</section>
+
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <div class="about-box">
+
+        <p>
+            My name is Victor. I am a Computer Science student
+            interested in technology, programming and building
+            useful digital projects.
+        </p>
+
+        <p>
+            I enjoy learning new technologies and improving my
+            skills by creating practical projects.
+        </p>
+
+    </div>
+
+</section>
+
+<section id="skills">
+
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skill">
+            <h3>Python</h3>
+            <p>Learning Python programming and application development.</p>
+        </div>
+
+        <div class="skill">
+            <h3>HTML</h3>
+            <p>Creating and structuring websites.</p>
+        </div>
+
+        <div class="skill">
+            <h3>CSS</h3>
+            <p>Designing and customizing websites.</p>
+        </div>
+
+        <div class="skill">
+            <h3>JavaScript</h3>
+            <p>Learning how to make websites interactive.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project">
+            <h3>VICTORCHAT</h3>
+
+            <p>
+                A Python Tkinter chat application that I built
+                while learning Python programming.
+            </p>
+
+            <button onclick="showProject()">View Project</button>
+        </div>
+
+
+        <div class="project">
+            <h3>Personal Website</h3>
+
+            <p>
+                My personal website where people can learn
+                about me, my skills and my projects.
+            </p>
+
+            <button onclick="showWebsite()">View Project</button>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <div class="contact-box">
+
+        <p>
+            If you would like to contact me, you can reach me through:
+        </p>
+
+        <p>
+            <strong>Email:</strong> your@email.com
+        </p>
+
+        <p>
+            <strong>Phone:</strong> +254 XXX XXX XXX
+        </p>
+
+    </div>
+    
+</section>
+
+<footer>
+
+    <p>© 2026 Victor. All rights reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+<!-- VICTORCHAT POPUP -->
+<div id="projectModal" class="modal">
+
+    <div class="modal-content">
+
+        <span class="close" onclick="closeProject()">&times;</span>
+
+        <h2>VICTORCHAT</h2>
+
+        <p>
+            VICTORCHAT is a Python Tkinter chat application
+            that I built while learning Python programming.
+        </p>
+
+        <p>
+            It includes a graphical interface, chat responses,
+            memory features and user interaction.
+        </p>
+
+        <button onclick="closeProject()">Close</button>
+
+    </div>
+
+</div>
+
+
+<!-- PERSONAL WEBSITE POPUP -->
+<div id="websiteModal" class="modal">
+
+    <div class="modal-content">
+
+        <span class="close" onclick="closeWebsite()">&times;</span>
+
+        <h2>Personal Website</h2>
+
+        <p>
+            This is my personal portfolio website where people
+            can learn about me, my skills and the projects I build.
+        </p>
+
+        <p>
+            I created this website while learning HTML, CSS
+            and JavaScript.
+        </p>
+
+        <button onclick="closeWebsite()">Close</button>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
+
+
+
+
